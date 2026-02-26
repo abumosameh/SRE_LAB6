@@ -1,0 +1,15 @@
+# .gitignore
+.DS_Store
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+!example.tfvars
+__pycache__/
+
+.git
+.idea
+
+
+
